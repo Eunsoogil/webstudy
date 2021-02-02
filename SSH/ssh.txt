@@ -1,0 +1,9 @@
+ssh : secure shell protocol, 컴퓨터와 컴퓨터간 송수신
+http, https, ftp와 같은 프로토콜의 종류
+ssl : secure sockets layer, https시 사용, 암호화기반 보안 프로토콜
+
+ssh command
+DigitalOcean 에서 ubuntu서버하나 개설(5 bucks per month)
+terminal에서 ssh root@xxx.xxx.xxx.xxx > 접속
+
+putty도 ssh 사용
