@@ -7,3 +7,8 @@ DigitalOcean 에서 ubuntu서버하나 개설(5 bucks per month)
 terminal에서 ssh root@xxx.xxx.xxx.xxx > 접속
 
 putty도 ssh 사용
+
+symmetrical encryption : hello (key) > encrypt > (key) hello, key exchange algorithm
+문제점 : key가 노출되면 안됨
+
+asymmetrical encryption : hello (private key, public key) > encrypt > hello (private key, public key), public key만 서로 공유, private key는 공유하지 않음, Difiie Hellman key exchange algorithm
